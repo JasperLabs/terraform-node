@@ -1,7 +1,7 @@
 FROM golang:alpine
 MAINTAINER "Oliver Shaw <ollie@jasper.io>"
 
-ENV TERRAFORM_VERSION=0.11.3
+ENV TERRAFORM_VERSION=0.11.13
 
 RUN apk add --update git bash openssh nodejs nodejs-npm
 
